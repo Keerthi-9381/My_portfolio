@@ -1,22 +1,23 @@
-import React from "react";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-white text-gray-800 font-sans">
+    <div className="font-sans">
       <Navbar />
-      <Home />
+      <Hero />
       <About />
-      <Projects />
+      <Skills />
       <Experience />
+      <Projects />
+      <Achievements />
       <Contact />
-      <Footer />
     </div>
   );
 }
